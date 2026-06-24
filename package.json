@@ -3,11 +3,21 @@
   "displayName": "Git: Ignore & Stop Tracking",
   "description": "Adds a Source Control context-menu action that adds a file to .gitignore and removes it from the git index in one step.",
   "version": "0.0.1",
-  "publisher": "local",
+  "publisher": "clintcparker",
+  "license": "0BSD",
   "engines": {
     "vscode": "^1.75.0"
   },
-  "categories": ["Other"],
+  "categories": ["SCM Providers", "Other"],
+  "keywords": ["git", "gitignore", "untrack", "source control", "scm"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clintcparker/git-ignore-and-untrack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/clintcparker/git-ignore-and-untrack/issues"
+  },
+  "homepage": "https://github.com/clintcparker/git-ignore-and-untrack#readme",
   "main": "./extension.js",
   "extensionKind": ["workspace"],
   "activationEvents": [
@@ -29,5 +39,12 @@
         }
       ]
     }
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.3.0"
   }
 }
