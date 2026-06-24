@@ -1,0 +1,33 @@
+{
+  "name": "git-ignore-and-untrack",
+  "displayName": "Git: Ignore & Stop Tracking",
+  "description": "Adds a Source Control context-menu action that adds a file to .gitignore and removes it from the git index in one step.",
+  "version": "0.0.1",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": ["Other"],
+  "main": "./extension.js",
+  "extensionKind": ["workspace"],
+  "activationEvents": [
+    "onCommand:gitIgnoreUntrack.ignoreAndUntrack"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "gitIgnoreUntrack.ignoreAndUntrack",
+        "title": "Ignore & Untrack"
+      }
+    ],
+    "menus": {
+      "scm/resourceState/context": [
+        {
+          "command": "gitIgnoreUntrack.ignoreAndUntrack",
+          "when": "scmProvider == git",
+          "group": "1_modification@20"
+        }
+      ]
+    }
+  }
+}
