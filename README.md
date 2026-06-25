@@ -1,7 +1,7 @@
 # Git: Ignore & Stop Tracking
 
-[![Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/clintcparker-ext.git-ignore-and-untrack?label=Marketplace)](https://marketplace.visualstudio.com/items?itemName=clintcparker-ext.git-ignore-and-untrack)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/clintcparker-ext.git-ignore-and-untrack)](https://marketplace.visualstudio.com/items?itemName=clintcparker-ext.git-ignore-and-untrack)
+[![Marketplace Version](https://vsmarketplacebadges.dev/version-short/clintcparker-ext.git-ignore-and-untrack.png)](https://marketplace.visualstudio.com/items?itemName=clintcparker-ext.git-ignore-and-untrack)
+[![Installs](https://vsmarketplacebadges.dev/installs-short/clintcparker-ext.git-ignore-and-untrack.png)](https://marketplace.visualstudio.com/items?itemName=clintcparker-ext.git-ignore-and-untrack)
 [![License: 0BSD](https://img.shields.io/badge/license-0BSD-blue.svg)](LICENSE)
 
 Adds an **Ignore & Untrack** action to the Source Control context menu that, in one step:
