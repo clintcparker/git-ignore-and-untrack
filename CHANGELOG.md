@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.0.2
+
+- Documentation: rewrote the README with an animated demo, a screenshot of the action, and worked examples (single file, whole folder, multi-select/multi-repo).
+- Added an FAQ & Troubleshooting section.
+- No functional changes.
+
 ## 0.0.1
 
 - Initial release.
