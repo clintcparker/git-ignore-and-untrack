@@ -5,3 +5,5 @@ node_modules/**
 **/*.vsix
 .vscodeignore
 secrets.txt
+docs/**
+package-lock.json
