@@ -4,3 +4,4 @@ node_modules/**
 .gitignore
 **/*.vsix
 .vscodeignore
+secrets.txt

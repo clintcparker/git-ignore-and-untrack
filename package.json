@@ -3,7 +3,7 @@
   "displayName": "Git: Ignore & Stop Tracking",
   "description": "Adds a Source Control context-menu action that adds a file to .gitignore and removes it from the git index in one step.",
   "version": "0.0.1",
-  "publisher": "clintcparker",
+  "publisher": "clintcparker-ext",
   "license": "0BSD",
   "engines": {
     "vscode": "^1.75.0"
